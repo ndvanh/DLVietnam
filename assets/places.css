@@ -1,0 +1,281 @@
+/* BG + Header (1)  */
+.main__background{
+    background-image: url(img/ninhthuan.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+   
+}
+.main__content-header{
+    position:absolute;
+}
+.places__wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+.main__content-text{
+    margin-top:0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+   width: 100%;
+   animation:upPlaces 1s ease-out;
+}
+@keyframes upPlaces{
+    from{
+        transform:translateY(150px);
+        opacity: 0;
+    }
+    to{transform:translateY(-50%);
+        opacity: 1;
+    }
+}
+.main__content-text h1{
+    color:white;
+    font-size: 80px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 8px var(--main-color);
+    font-family: 'Dancing Script', cursive;
+}
+/* Main (2) */
+.places__flex{
+    display: flex;
+}
+.places__heading{
+    font-size: 35px;
+    text-align: center;
+    color: var(--sec-color);
+    text-transform: uppercase;
+}
+.places__wrapper{
+    padding:50px 0;
+}
+.places__content{
+    margin-top: 30px;
+    position: relative;
+    transform: scale(1);
+}
+.places__group-link{
+    display:block;
+    text-decoration: none;
+    color: var(--main-color);
+    font-weight:500;
+    font-size:20px;
+    border-bottom: 2px solid var(--main-color);
+    text-align:right;
+    transition: 0.5s ease;
+}
+.northern{
+    position: absolute;
+    top: 50px;
+    width: 350px;
+    left: 160px;
+}
+.central{
+position: absolute;
+top: 230px;
+    width: 315px;
+    left: 196px;
+}
+.southern{
+    position: absolute;
+    top: 415px;
+    width: 335px;
+    left: 175px;
+}
+.places__info{
+    width: 50%;
+    max-width: 600px;
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    padding: 30px 15px ;
+}
+.places__info p{
+    line-height: 25px;
+    color: var(--text-color);
+    font-weight: 300;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+.places__info h3{
+    color: var(--main-color);
+    
+}
+.places__btn{
+    background-image: var(--bg-color);
+    border-radius: 999px;
+    transition: 0.5s ease;
+    padding: 15px 40px; 
+    color: white;
+    text-decoration: none;
+}
+.places__btn:hover{
+    box-shadow: 2px 2px 2px #888888;
+    filter: brightness(120%);
+}
+/* Main (3) (4) (5) */
+.bg__heading{
+    color: white;
+    font-size:50px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 8px var(--main-color);
+    font-family: 'Dancing Script', cursive;
+}
+#main__northern{
+    padding-bottom: 40px;
+}
+#main__central{
+    padding-bottom: 40px;
+}
+#main__southern{
+    padding-bottom: 40px;
+}
+.central__bg{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-image: url(img/places/cebg.jpg);
+    height: 50vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+    padding:50px 0;   
+}
+.southern__bg{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-image: url(img/places/sobg.jpg);
+    height: 50vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+    padding:50px 0;   
+}
+.northern__bg{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-image: url(img/places/nobg.jpg);
+    height: 50vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+    padding:50px 0;   
+}
+.destinations__heading{
+    padding: 30px 0;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.destinations__heading p{
+    color: var(--main-color);
+    text-align: center;
+    font-size: 25px;
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+.destinations__top p{
+    text-align: center;
+    color: var(--sec-color);
+    font-size:25px;
+}
+.destinations__images{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+     flex-wrap: wrap;
+}
+.destinations__img{
+    overflow: hidden;
+    position: relative;
+    margin: 0 10px;
+    flex:3;
+}
+.destinations__img img{
+    transition: transform 1s ease;
+    
+}
+.destinations__img img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.destinations__text{
+    position: absolute;
+    color:white;
+    font-size:25px;
+    bottom:1px;
+    padding: 20px;
+    background-color:rgba(0, 0, 0, 0.4);
+    width:100%;
+    opacity: 0;
+}
+@keyframes fadeLeft {
+    from{transform:translateX(-150px);}
+    to{transform:translateX(0);}
+}
+.destinations__img:hover .destinations__text{
+    opacity: 1;
+    animation:fadeLeft 0.5s ease-out;
+}
+
+/* ////////////////Responsive //////////////// */
+/* Tablet */
+@media only screen and (min-width: 739px) and (max-width: 1023px)  {
+    .places__group-link {
+        width: 215px;
+    }
+    .destinations__img{
+        flex-basis: 40%;
+        margin-top: 10px;
+    }
+    .destinations__text{
+        opacity: 1;
+    }
+ }
+/* Mobile */
+@media only screen and (max-width: 739px) {
+    .places__group-link {
+        width: 128px;
+    }
+    .destinations__img{
+        flex-basis: 100%;
+        margin-top: 10px;
+    }
+    .bg__heading{
+        font-size:35px;
+    }
+    .destinations__text{
+        opacity: 1;
+    }
+    .destinations__img img{
+        width: 100%;
+    }
+    .places__info{
+        position:unset;
+        transform:none;
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+    .places__info p{
+        text-align: justify;
+    }
+ }

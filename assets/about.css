@@ -1,0 +1,330 @@
+/* BG + Header (1)  */
+.main__background{
+    background-image: url(img/aboutus.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+   
+}
+.main__content-header{
+    position:absolute;
+}
+.places__wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+.main__content-text{
+    margin-top:0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+   width: 100%;
+   animation:upPlaces 1s ease-out;
+}
+@keyframes upPlaces{
+    from{
+        transform:translateY(150px);
+        opacity: 0;
+    }
+    to{transform:translateY(-50%);
+        opacity: 1;
+    }
+}
+.main__content-text h1{
+    color:white;
+    font-size: 80px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 8px var(--main-color);
+    font-family: 'Dancing Script', cursive;
+}
+/* <!-- Main (2) --> */
+.myth__wrapper{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+.myth__item{
+    flex: 1;
+  
+}
+.myth__heading{
+    color: var(--sec-color);
+    margin-top: 50px;
+    text-transform:uppercase;
+}
+.myth__text-heading{
+    color: var(--main-color);
+    margin-top: 100px;
+}
+.myth__text{
+    color: var(--text-color);
+    margin-top: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    padding-right:20px ;
+}
+.item-flex{
+display:flex;
+flex-direction: column;
+justify-content: space-between;
+
+}
+.item-info{
+    padding:50px 60px;
+}
+.myth__info-heading{
+    color: var(--main-color);
+}
+/* <!-- Main (3) --> */
+.main__nature{
+    position: relative;
+    padding: 30px 0;
+    background-color: white;
+}
+.nature__wrapper{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.nature__text{
+    max-width: 600px;
+}
+.nature__heading{
+    color:var(--sec-color);
+    font-size:80px;
+    text-transform: uppercase;
+}
+.nature__heading:nth-child(2){
+    margin-left:100px;
+}
+.nature__text{
+    color:var(--text-color);
+    font-weight:300;
+    line-height:25px;
+    margin-top: 20px;
+}
+.nature__link{
+    display: block;
+    color: var(--main-color);
+    text-decoration: none;
+    margin-top:45px;
+    position: relative;
+    width: 120px;
+}
+.nature__icon{
+    position: absolute;
+    top: 3px;
+    left:110px;
+    transition: 0.3s ease-out;
+}
+.nature__link:hover .nature__icon{
+    left:125px;
+}
+.nature__imgaes1{
+    position: absolute;
+    height: 350px;
+    width: 280px;
+    background-color: blue;
+    top: 190px;
+    z-index: 2;
+    transform: rotate(-15deg);
+    right: 240px;
+    background-image: url(img/tour1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+.nature__imgaes2{
+    position: absolute;
+    height: 370px;
+    width: 280px;
+    background-color: blueviolet;
+    top: 100px;
+    z-index: 1;
+    transform: rotate(15deg);
+    right: 80px;
+    background-image: url(img/tour2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+/* <!-- Main (4) --> */
+.main__food{
+  padding: 50px 0;
+}
+.food__wrapper{
+    width: 100%;
+    max-width: 1200px;
+    margin: 100px auto;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.food__box{
+    flex-basis: 40%;
+}
+.food__box h1{
+    text-align: center;
+    font-size:50px;
+    text-transform:uppercase;
+    color: var(--sec-color);
+}
+.food__box p{
+    text-align:justify;
+    margin-top:10px;
+    color:var(--text-color);
+    font-weight:300;
+}
+.food__show{
+    flex-basis: 25%;
+    height:300px;
+    background-image: url(https://i.pinimg.com/originals/81/c6/de/81c6dec6591bb59caccf672c042bac3c.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    border-radius: 999px;
+    border:1px solid var(--main-color);
+}
+.food__show:last-child{
+    background-image:url(https://i.pinimg.com/originals/13/a6/1d/13a61db2ea918db6c84640f5639d98b0.jpg);
+}
+
+/* <!-- Main (5) --> */
+.main__people{
+    background-image: url(https://img4.goodfon.com/wallpaper/nbig/6/f5/vetnam-sol-ozero-liudi.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    width: 100%;
+}
+.people__bg{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0,0.6);
+    padding:100px 0;
+}
+.people__wrapper{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.people__heading{
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.people__info{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 80px;
+}
+.people__box{
+    color: white;
+    flex-basis: 50%;
+    max-width: 350px;
+}
+.people__box p{
+    text-align:justify;
+    padding:20px 10px;
+}
+
+/* ////////////////Responsive //////////////// */
+/* Tablet */
+@media only screen and (max-width: 1200px)  {
+    .nature__imgaes1 {
+        height: 250px;
+        width: 180px;
+    }
+    .nature__imgaes2 {
+        height: 270px;
+        width: 180px;
+    }
+  }
+@media only screen and (min-width: 739px) and (max-width: 1023px)  {
+   .main__myth{
+       padding: 0 10px;
+   }
+   .main__nature{
+    padding: 0 10px;
+ }
+ .nature__info{
+     text-align:center;
+ }
+ .nature__text{
+     max-width: unset;
+     text-align:justify;
+ }
+ .nature__imgaes1 {
+    height: 350px;
+    position:unset;
+    margin-top: 20px;
+    width: 280px;
+    margin-left: 20px;
+}
+.nature__imgaes2 {
+    height: 370px;
+    width: 280px;
+    position:unset;
+    margin-left: 20px;
+}
+ }
+/* Mobile */
+@media only screen and (max-width: 739px) {
+    .main__nature{
+        padding: 0 10px;
+    }
+    .main__myth{
+        padding: 0 10px;
+    }
+    .myth__wrapper{
+        display:unset;
+    }
+    .nature__imgaes1 {
+        height: 350px;
+        position:unset;
+        margin-top: 20px;
+        width: 280px;
+        margin-left: 20px;
+    }
+    .nature__info{
+        text-align:center;
+        padding-top: 20px;
+    }
+    .nature__text{
+        max-width: unset;
+        text-align:justify;
+    }
+    .nature__heading {
+        font-size:38px;
+
+    }
+    .nature__imgaes2 {
+        height: 370px;
+        width: 280px;
+        position:unset;
+        margin-left: 20px;
+    }
+    .food__box h1 {
+        font-size:30px;
+    }
+    .food__show{
+        height:180px;
+    }
+    .people__heading{
+        font-size:35px;
+    }
+    .people__box{
+        flex-basis: 100%;
+    }
+ }

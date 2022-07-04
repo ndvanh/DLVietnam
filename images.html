@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/images.css">
+    <title>Images gallery | DLVietnam</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="icon" href="assets/img/logo.png">
+   
+</head>
+<body>
+    <div class="main">
+        <!-- BG + Header (1) -->
+        <div id="main__content">
+        <header class="main__content-header"></header>
+        <div class="main__background"></div>
+        <div class="main__content-text">
+            <h1>Images gallery</h1>
+        </div>
+        <div class="back-to-top">
+            <a href="#main__content" class="back-link">
+                <i class="fa-solid fa-angles-up"></i>
+            </a>
+        </div>
+        </div>
+        <!-- Main (2) -->
+        <div class="main__gallery">
+            <div class="gallery__wrapper">
+                <h1 class="gallery__heading">Our gallery</h1>
+                <ul class="gallery__list">
+                    <li id="curTab" class="gallery__link" onclick="openGrid('mountains',this,'var(--sec-color)')">Mountains <i class="fa-solid fa-mountain-sun"></i></li>
+                    <li  class="gallery__link" onclick="openGrid('beaches',this,'var(--sec-color)')">Beaches <i class="fa-solid fa-umbrella-beach"></i></li>
+                    <li  class="gallery__link" onclick="openGrid('cities',this,'var(--sec-color)')">Cities <i class="fa-solid fa-city"></i></li>
+                    <li  class="gallery__link" onclick="openGrid('food',this,'var(--sec-color)')">Food <i class="fa-solid fa-utensils"></i></li>
+                </ul>
+                <div class="gallery__box">
+                    <div id="mountains" class="gallery__grid" >
+                            <div class="grid__box">
+                                <figure class="gallery__item gallery__item-1-s1">
+                                    <img src="https://dulichkhatvongviet.com/wp-content/uploads/2020/10/nui-ba-vi-sung-sung.jpg" class="gallery__img" alt="Ba Vi" loading="lazy">
+                                  </figure>
+                                  <figure class="gallery__item gallery__item-2-s1">
+                                    <img src="https://cdnmedia.baotintuc.vn/Upload/a7srThwxbojBCucvUWgnxA/files/2022/02/25/tam-dao-25022022.jpg" class="gallery__img" alt="Tam Dao" loading="lazy">
+                                  </figure>
+                                  <figure class="gallery__item gallery__item-3-s1">
+                                    <img src="https://icdn.dantri.com.vn/thumb_w/770/2022/01/26/27012604653321639067987058280958770260720699n-1643175857469.jpg" class="gallery__img" alt="Fansipan" loading="lazy">
+                                  </figure>
+                                  <figure class="gallery__item gallery__item-4-s1">
+                                    <img src="http://dulichhobabe.com/UserFiles/image/tour/Thac-Ban-Gioc-Cao-Bang2.jpg" class="gallery__img" alt="Thac Ban Gioc" loading="lazy">
+                                  </figure>
+                                  <figure class="gallery__item gallery__item-5-s1">
+                                    <img src="https://2.bp.blogspot.com/-4UWCy-Sqh8Y/UiE0lSayvHI/AAAAAAABdT8/uAI-ixDlNnM/s1600/Hoang-lien-Son_QDWE.jpg" class="gallery__img" alt="Day Hoang Lien Son" loading="lazy">
+                                  </figure>
+                                  <figure class="gallery__item gallery__item-6-s1">
+                                    <img src="https://images.vietnamtourism.gov.vn/vn/images/2021/deo_ma_pi_leng.jpg" class="gallery__img" alt="Deo Ma Pi Leng" loading="lazy">
+                                  </figure>
+                                  <figure class="gallery__item gallery__item-7-s1">
+                                    <img src="https://www.vietnambooking.com/wp-content/uploads/2020/07/o-quy-ho-o-dau-1.jpg" class="gallery__img" alt=" Deo O Quy Ho" loading="lazy">
+                                  </figure>
+                                  <figure class="gallery__item gallery__item-8-s1">
+                                    <img src="https://phuotvivu.com/blog/wp-content/uploads/2018/05/dia-diem-du-lich-da-nang-deo-hai-van.jpg" class="gallery__img" alt="Deo Hai Van" loading="lazy">
+                                  </figure>
+                                  <figure class="gallery__item gallery__item-9-s1">
+                                    <img src="https://disantrangan.vn/wp-content/uploads/2021/04/du-lich-yen-tu-quang-ninh.jpg" class="gallery__img" alt="Yen Tu" loading="lazy">
+                                  </figure>
+                            </div>
+                    </div>
+                    <div id="beaches" class="gallery__grid" >
+                        <div class="grid__box">
+                            <figure class="gallery__item gallery__item-1-s2">
+                                <img src="https://a.cdn-hotels.com/gdcs/production55/d1258/f08b2b98-72bb-41c6-a0ac-115bc9b115cc.jpg?impolicy=fcrop&w=1600&h=1066&q=medium" class="gallery__img" alt="Cat Ba" loading="lazy">
+                              </figure>
+                              <figure class="gallery__item gallery__item-2-s2">
+                                <img src="https://statics.vinpearl.com/Anh%201%20Du%20lich%20sam%20son%20thanh%20hoa.jpg" class="gallery__img" alt="Sam Son" loading="lazy">
+                              </figure>
+                              <figure class="gallery__item gallery__item-3-s2">
+                                <img src="https://image.thanhnien.vn/w660/Uploaded/2022/wsxrxqeiod/2019_01_23/quy-nhon_xzrv.jpg" class="gallery__img" alt="Quy Nhon" loading="lazy">
+                              </figure>
+                              <figure class="gallery__item gallery__item-4-s2">
+                                <img src="https://nemtv.vn/wp-content/uploads/2019/03/bien-lang-co-3-nemtv.jpg" class="gallery__img" alt="Lang Co" loading="lazy">
+                              </figure>
+                              <figure class="gallery__item gallery__item-5-s2">
+                                <img src="https://media.mia.vn/uploads/blog-du-lich/mach-nho-ban-5-mon-khong-the-thieu-khi-den-nha-trang-danh-cho-hoi-cuong-chan-1635785958.jpg" class="gallery__img" alt="Nha Trang" loading="lazy">
+                              </figure>
+                              <figure class="gallery__item gallery__item-6-s2">
+                                <img src="https://media.baoquangninh.com.vn/dataimages/201605/original/images865927_nhung_bai_bien_nen_di_o_phu_quoc_3_phunutoday_vn.jpg" class="gallery__img" alt="Phu Quoc" loading="lazy">
+                              </figure>
+                              <figure class="gallery__item gallery__item-7-s2">
+                                <img src="https://danangfantasticity.com/wp-content/uploads/2021/05/hai-bai-bien-viet-vao-top-dep-nhat-chau-a.jpg" class="gallery__img" alt="My Khe -DN" loading="lazy">
+                              </figure>
+                              <figure class="gallery__item gallery__item-8-s2">
+                                <img src="assets/img/bien.jpg" class="gallery__img" alt="Mui Ne" loading="lazy">
+                              </figure>
+                              <figure class="gallery__item gallery__item-9-s2">
+                                <img src="assets/img/places/cebg.jpg" class="gallery__img" alt="Ly Son" loading="lazy">
+                              </figure>
+                        </div>
+                    </div>
+                    <div id="cities" class="gallery__grid" >
+                        <div class="grid__box">
+                            <figure class="gallery__item gallery__item-1-s1">
+                                <img src="http://divui.com/blog/wp-content/uploads/2017/01/hanoi-top-10-attractions.jpg" class="gallery__img" alt="Ha Noi" loading="lazy">
+                              </figure>
+                              <figure class="gallery__item gallery__item-2-s1">
+                                <img src="https://liengtam.com/wp-content/uploads/2021/08/3-thanh-pho-ho-chi-minh-ngay-nay.jpg" class="gallery__img" alt="TP Ho Chi Minh" loading="lazy">
+                              </figure>
+                              <figure class="gallery__item gallery__item-3-s1">
+                                <img src="assets/img/hoian.jpg" class="gallery__img" alt="Hoi An" loading="lazy">
+                              </figure>
+                              <figure class="gallery__item gallery__item-4-s1">
+                                <img src="https://image.vietstock.vn/2019/08/20/da-nang-bds.jpg" class="gallery__img" alt="Da Nang" loading="lazy">
+                              </figure>
+                              <figure class="gallery__item gallery__item-5-s1">
+                                <img src="https://www.wheretovietnam.com/wp-content/uploads/cache/images/tp-hue/tp-hue-1152479914.jpg" class="gallery__img" alt="Hue" loading="lazy">
+                              </figure>
+                              <figure class="gallery__item gallery__item-6-s1">
+                                <img src="https://khachsandalat.pro/wp-content/uploads/2019/04/vui-choi-da-lat-ve-dem.jpg" class="gallery__img" alt="Da Lat" loading="lazy">
+                              </figure>
+                              <figure class="gallery__item gallery__item-7-s1">
+                                <img src="https://media-cdn-v2.laodong.vn/storage/newsportal/2021/2/12/879925/Hai-Phong-6.jpg" class="gallery__img" alt="Hai Phong" loading="lazy">
+                              </figure>
+                              <figure class="gallery__item gallery__item-8-s1">
+                                <img src="https://media-cdn-v2.laodong.vn/storage/newsportal/2020/1/19/779585/Cau-Can-Tho2.jpg" class="gallery__img" alt="Can Tho" loading="lazy">
+                              </figure>
+                              <figure class="gallery__item gallery__item-9-s1">
+                                <img src="https://dulichvietnam.com.vn/vnt_upload/news/12_2019/pho-bich-hoa-1.jpg" class="gallery__img" alt="Pho co HN dem" loading="lazy">
+                              </figure>
+                        </div>
+                    </div>
+                    <div id="food" class="gallery__grid" >
+                        <div class="grid__box">
+                            <figure class="gallery__item gallery__item-1-s2">
+                                <img src="https://cdn.tgdd.vn/Files/2022/01/25/1412805/cach-nau-pho-bo-nam-dinh-chuan-vi-thom-ngon-nhu-hang-quan-202201250313281452.jpg" class="gallery__img" alt="Pho" loading="lazy">
+                              </figure>
+                              <figure class="gallery__item gallery__item-2-s2">
+                                <img src="https://cdnsg.kilala.vn/data/upload/article/6779/banh-mi-viet-nam.jpg" class="gallery__img" alt="Banh mi" loading="lazy">
+                              </figure>
+                              <figure class="gallery__item gallery__item-3-s2">
+                                <img src="https://bizweb.dktcdn.net/100/420/256/files/mieng-cha-gio-chien-vang-gion-rum-thom-ngon-kho-cuong.jpg?v=1618129516183" class="gallery__img" alt="Nem" loading="lazy">
+                              </figure>
+                              <figure class="gallery__item gallery__item-4-s2">
+                                <img src="https://trivietphat.net/wp-content/uploads/2021/08/bun-bo-1.jpg" class="gallery__img" alt="Bun bo Hue" loading="lazy">
+                              </figure>
+                              <figure class="gallery__item gallery__item-5-s2">
+                                <img src="https://emoi.vn/wp-content/uploads/2020/12/hu-tieu-nam-vang-1-e1609305847180.jpg" class="gallery__img" alt="Hu Tieu" loading="lazy">
+                              </figure>
+                              <figure class="gallery__item gallery__item-6-s2">
+                                <img src="https://i.vietgiaitri.com/2022/1/7/cach-lam-banh-xeo-mien-trung-gion-tan-an-la-ghien-9bc-6254896.jpg" class="gallery__img" alt="Banh Xeo" loading="lazy">
+                              </figure>
+                              <figure class="gallery__item gallery__item-7-s2">
+                                <img src="http://debbienet.com/wp-content/uploads/2011/03/Brewing-Vietnamese-Coffee-e1511495322160.jpg" class="gallery__img" alt="Coffe" loading="lazy">
+                              </figure>
+                              <figure class="gallery__item gallery__item-8-s2">
+                                <img src="https://vcdn-giadinh.vnecdn.net/2021/01/08/Anh-2-8146-1610099449.jpg" class="gallery__img" alt="Bun Cha" loading="lazy">
+                              </figure>
+                              <figure class="gallery__item gallery__item-9-s2">
+                                <img src="https://www.culturemagazin.com/wp-content/uploads/2020/07/728.Com-tam1.jpg" class="gallery__img" alt="Com Tam" loading="lazy">
+                              </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>     
+      <!-- Footer -->
+     <footer class="footer"> </footer>
+</div>
+<script  src="JS/header.js"></script>
+<script  src="JS/footer.js"></script>
+<script  src="JS/grid-page.js"></script>
+<script type="text/javascript" src="./JS/main.js"></script>
+</body>
+</html>
