@@ -13,9 +13,9 @@
     position:absolute;
 }
 .places__wrapper{
-    max-width: 1200px;
+    width: 1200px;
     margin: 0 auto;
-    width: 100%;
+    max-width: 100%;
 }
 .main__content-text{
     margin-top:0;

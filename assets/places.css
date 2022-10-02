@@ -13,9 +13,9 @@
     position:absolute;
 }
 .places__wrapper{
-    max-width: 1200px;
+    width: 1200px;
     margin: 0 auto;
-    width: 100%;
+    max-width: 100%;
 }
 .main__content-text{
     margin-top:0;
@@ -177,8 +177,8 @@ top: 230px;
 }
 .destinations__heading{
     padding: 30px 0;
-    width: 100%;
-    max-width: 1200px;
+    width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
 }
 .destinations__heading p{
@@ -195,8 +195,8 @@ top: 230px;
     font-size:25px;
 }
 .destinations__images{
-    width: 100%;
-    max-width: 1200px;
+    width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     margin-top: 20px;
     display: flex;

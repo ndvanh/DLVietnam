@@ -13,9 +13,9 @@
     position:absolute;
 }
 .places__wrapper{
-    max-width: 1200px;
+    width: 1200px;
     margin: 0 auto;
-    width: 100%;
+    max-width: 100%;
 }
 .main__content-text{
     margin-top:0;
@@ -46,8 +46,8 @@
     padding:50px 0;
 }
 .gallery__wrapper{
-    width:100%;
-    max-width: 1200px;
+    width:1200px;
+    max-width: 100%;
     margin: 0 auto;
 }
 .gallery__heading{

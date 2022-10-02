@@ -71,8 +71,8 @@ body{
   
     display: flex;
     justify-content:space-between;
-    width: 100%;
-    max-width: 1200px;
+    width: 1200px;
+    max-width: 100%;
     margin:0 auto;
 }
 .main__socialbar{
@@ -327,8 +327,8 @@ body{
     padding:40px 0 8px 0;
 }
 .main__live-wrapper{
-    width: 100%;
-    max-width: 1200px;
+    width: 1200px;
+    max-width: 100%;
     margin:0 auto;
     display: flex;
     padding: 50px 0;
@@ -379,8 +379,8 @@ body{
 }
 .main__tour-box{
     background-color:white;
-    width: 100%;
-    max-width: 1200px;
+    width: 1200px;
+    max-width: 100%;
     margin:0 auto;
     position: relative;
     padding-top:80px;
@@ -444,8 +444,8 @@ body{
 }
 /* ////////////////Main(4) //////////////// */
 .main__places-wrapper{
-    width: 100%;
-    max-width: 1200px;
+    width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 50px 0;
 }
@@ -575,8 +575,8 @@ body{
     padding-bottom: 45px;
   }
   .main__todo-box{
-    width: 100%;
-    max-width: 1200px;
+    width: 1200px;
+    max-width: 100%;
     margin:0 auto;
     position: relative;
 }
@@ -630,8 +630,8 @@ body{
     background-color: white;
 }
 .main__evaluate-wrapper{
-    width: 100%;
-    max-width: 1200px;
+    width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 50px 0;
     overflow: hidden;
@@ -693,8 +693,8 @@ body{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 100%;
-    max-width: 1200px;
+    width: 1200px;
+    max-width: 100%;
     margin:0 auto;
     color:var(--text-color);
     padding-top: 30px;
